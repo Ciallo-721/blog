@@ -81,7 +81,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "Steam",
 				url: "https://steamcommunity.com/profiles/76561198400756947",
 				external: true,
-				icon: "material-symbols:docs",
+				icon: "fa7-brands:steam",
 			},
 			{
 				name: "GitHub",
