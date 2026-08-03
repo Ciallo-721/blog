@@ -1,14 +1,17 @@
 ---
 title: Firefly 代码块示例
 published: 1970-01-03
-pinned: false
+updated: 2026-08-03
+draft: false
 description: 在Firefly中使用表达性代码的代码块在 Markdown 中的外观。
-tags: [Markdown, Firefly]
+image: ./images/mpv-ciallo.jpg
+tags:
+  - Markdown
+  - Firefly
 category: 文章示例
-image: ./images/firefly3.avif
-slug: code-examples
+pinned: false
+comment: true
 ---
-
 在这里，我们将探索如何使用 [Expressive Code](https://expressive-code.com/) 展示代码块。提供的示例基于官方文档，您可以参考以获取更多详细信息。
 
 ## 表达性代码
@@ -212,7 +215,7 @@ console.log('单词 yes 和 yep 将被标记。')
 
 #### 转义正斜杠
 
-```sh /\/ho.*\//
+```sh //ho.*//
 echo "Test" > /home/test.txt
 ```
 
@@ -333,7 +336,7 @@ console.log('我在第6行')
 
 ### 基本用法
 
-````markdown
+```markdown
 ::: code-group labels=[code.js, code.py, code.html]
 
 ```js
@@ -352,7 +355,7 @@ def greet(name):
 ```
 
 :::
-````
+```
 
 渲染效果：
 
@@ -379,9 +382,9 @@ def greet(name):
 
 标签支持 [emoji 短代码](https://github.com/omnidan/node-emoji#readme)，构建时会自动转换成 emoji：
 
-````markdown
+```markdown
 ::: code-group labels=[:package: npm, :package: pnpm, :yarn: yarn]
-````
+```
 
 ::: code-group labels=[:package: npm, :package: pnpm, :yarn: yarn]
 
@@ -440,4 +443,5 @@ console.log(a, b);
 :::
 
 > [!TIP]
-> 标签栏在构建期生成，默认展开第一项；支持鼠标点击与键盘 <kbd>←</kbd> / <kbd>→</kbd> / <kbd>Home</kbd> / <kbd>End</kbd> 切换。
+> 标签栏在构建期生成，默认展开第一项；支持鼠标点击与键盘 ← / → / Home / End 切换。
+
