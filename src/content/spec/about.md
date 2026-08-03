@@ -9,7 +9,7 @@ Ciallo～(∠・ω< )⌒★
 
 **🎮我的Steam： [https://steamcommunity.com/id/Ciallo-721](https://steamcommunity.com/id/Ciallo-721/)**
 
-::github{repo="Ciallo-721"}
+::github{repo="Ciallo-721/mpv-Ciallo"}
 
 ---
 
