@@ -6,27 +6,26 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "宇宙无敌板鸭酱",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "小生活馆",
 
 	// 站点 URL
 	site_url: "https://721233.xyz",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"Ciallo～(∠・ω< )⌒★",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
+    	"博客",
+		"宇宙无敌板鸭酱",
+		"Ciallo",
+		"Ciallo-721",
+		"Ciallo～(∠・ω< )⌒☆",
+		"Ciallo～(∠・ω< )⌒★",
 	],
 
 	// 主题色
@@ -108,11 +107,11 @@ export const siteConfig: SiteConfig = {
 		// 留言板页面开关，需要配置评论系统
 		guestbook: true,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		bangumi: false,
 		// 相册页面开关
 		gallery: true,
 		// 追番页面开关
-		anime: true,
+		anime: false,
 		// 动态页面开关
 		dynamic: true,
 		// 书签导航页面开关
