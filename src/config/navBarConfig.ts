@@ -92,28 +92,28 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		// 子菜单
 		children: [
 			{
+				name: "Steam",
+				url: "https://steamcommunity.com/profiles/76561198400756947",
+				external: true,
+				icon: "material-symbols:docs",
+			},
+			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/Ciallo-721",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "mpv-Ciallo",
+				url: "https://github.com/Ciallo-721/mpv-Ciallo",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "fa7-brands:github",
 			},
 			{
 				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				url: "https://qm.qq.com/q/IAK3JKUaIK",
 				external: true,
 				icon: "fa7-brands:qq",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
 			},
 		],
 	});
