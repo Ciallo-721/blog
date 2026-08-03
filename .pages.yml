@@ -41,7 +41,7 @@ content:
         filename:
           template: "{primary}.md"
           field: create
-        exclude: ["**./images/**", "**/*.avif", "**/*.webp", "**/*.png", "**/*.jpg"]
+        exclude: ["**/images/**", "**/*.avif", "**/*.webp", "**/*.png", "**/*.jpg"]
         view:
           primary: title
           fields: [title, published, tags, category, draft, pinned]
