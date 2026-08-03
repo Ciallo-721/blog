@@ -5,6 +5,9 @@ updated: 2026-08-03
 draft: false
 description: mpv 播放器自用配置
 image: images/mpv-ciallo.jpg
+tags:
+  - PC软件
+  - 播放器
 category: 多媒体
 pinned: true
 comment: true
