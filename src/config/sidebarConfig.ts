@@ -49,6 +49,16 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			showOnPostPage: false,
 		},
 		{
+			// 组件类型：时段问候实时时钟组件
+			type: "timeGreeting",
+			// 是否启用该组件
+			enable: true,
+			// 组件位置
+			position: "top",
+			// 是否在文章详情页显示
+  			showOnPostPage: true,
+		},
+		{
 			// 组件类型：公告组件
 			type: "announcement",
 			// 是否启用该组件
@@ -62,7 +72,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：音乐播放器
 			type: "music",
 			// 是否启用该组件
-			enable: true,
+			enable: false,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
@@ -97,16 +107,6 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				// 折叠阈值：当标签数量超过>10个时自动折叠
 				collapseThreshold: 10,
 			},
-		},
-		{
-			// 组件类型：站点统计组件
-			type: "stats",
-			// 是否启用该组件
-			enable: true,
-			// 组件位置
-			position: "sticky",
-			// 是否在文章详情页显示
-			showOnPostPage: false,
 		},
 		{
 			// 组件类型：侧边栏目录组件（只在文章详情页显示）
