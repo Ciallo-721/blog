@@ -54,7 +54,7 @@ mpv-Ciallo 是基于原生 mpv 内核深度定制的增强版播放器，在保�
 
 mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代原生 mpv 极简简陋的默认界面。
 
-![uosc](images/mpv-Ciallo.avif)
+![uosc](images/mpv-ciallo.avif)
 
 ### 2.2 视频缩略图：thumbfast（po5/thumbfast）
 
