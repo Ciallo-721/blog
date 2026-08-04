@@ -94,10 +94,7 @@ content:
               multiple: true
               creatable: true
               values:
-                - { label: PC软件, value: PC软件 }
-                - { label: Android软件, value: Android软件 }
-                - { label: 播放器, value: 播放器 }
-                - { label: 教程, value: 教程 }
+                - { label: 多媒体, value: 多媒体 }
 
           - name: category
             label: 分类
