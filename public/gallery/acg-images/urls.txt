@@ -1,11 +1,4 @@
 # 每行一个图片 URL，支持 jpg/png/webp/avif/gif后缀
 # # 号开头的行为注释，空行会被忽略
 # 示例：
-https://s41.ax1x.com/2026/08/04/pmouMdA.webp
-https://s41.ax1x.com/2026/08/04/pmou8Rf.webp
-https://s41.ax1x.com/2026/08/04/pmouQII.webp
-https://s41.ax1x.com/2026/08/04/pmou3JP.webp
-https://s41.ax1x.com/2026/08/04/pmou1it.webp
-https://s41.ax1x.com/2026/08/04/pmouGz8.webp
-https://s41.ax1x.com/2026/08/04/pmouNLQ.webp
-https://s41.ax1x.com/2026/08/04/pmoutsg.webp
+# https://s41.ax1x.com/2026/08/04/pmouMdA.webp
