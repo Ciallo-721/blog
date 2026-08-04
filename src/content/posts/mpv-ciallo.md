@@ -4,7 +4,7 @@ published: 2026-08-03
 updated: 2026-08-03
 draft: false
 description: mpv 播放器自用配置
-image: /images/mpv-ciallo.avif
+image: ./images/mpv-ciallo.avif
 tags:
   - PC软件
   - 播放器
