@@ -94,6 +94,6 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 ![Bilibili弹幕](images/mpv-bili_danmaku.avif)
 
-## 下载方式
+## 🌟 下载方式
 
 ::github{repo="Ciallo-721/mpv-Ciallo/releases"}
