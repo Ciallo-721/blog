@@ -7,7 +7,7 @@ media:
   - name: post-images
     label: 文章配图
     input: src/content/posts/images
-    output: ./images
+    output: /images
     categories: [image]
 
   # public 静态资源 - 封面图、音乐封面等
