@@ -90,10 +90,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "mpv-Ciallo",
-				url: "https://github.com/Ciallo-721/mpv-Ciallo",
+				name: "Bilibili",
+				url: "https://space.bilibili.com/9071867",
 				external: true,
-				icon: "fa7-brands:github",
+				icon: "fa7-brands:bilibili",
 			},
 			{
 				name: "QQ交流群",
