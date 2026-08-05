@@ -144,11 +144,11 @@ export const siteConfig: SiteConfig = {
 		// PostMeta 元数据显示控制
 		meta: {
 			// 是否显示发布日期
-			showPublished: true,
+			showPublished: false,
 			// 是否显示分类
 			showCategory: true,
 			// 是否显示标签
-			showTags: false,
+			showTags: true,
 			// 标签数量，设为 0 则不限制
 			tagCount: 5,
 			// 是否显示字数
@@ -160,7 +160,7 @@ export const siteConfig: SiteConfig = {
 		// 如果tagsPosition设置为"bottom"，则stats将不显示
 		stats: {
 			// 是否显示发布日期
-			showPublished: false,
+			showPublished: true,
 			// 是否显示字数
 			showWords: true,
 			// 是否显示阅读时间
