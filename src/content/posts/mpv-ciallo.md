@@ -12,20 +12,20 @@ category: PC
 pinned: true
 comment: true
 ---
-## 🌟 原生 mpv 播放器介绍
+# 🌟 原生 mpv 播放器介绍
 
-### 1.1 项目由来与开源背景
+## 1.1 项目由来与开源背景
 
 mpv 是一款免费、开源、跨平台的多媒体播放器，是经典开源播放器 MPlayer、mplayer2 的迭代续作与优化分支项目。该项目诞生于社区开发者对旧版 MPlayer 架构臃肿、更新停滞、兼容性不足的优化需求，继承了 MPlayer 全系播放内核能力，同时重构了代码架构、修复大量历史 Bug，适配了现代化系统与播放需求。
 
-### 1.2 核心开源特性
+## 1.2 核心开源特性
 
 - **完全开源透明**：全程开源无闭源模块，无广告、无后台联网、无隐私收集，代码完全公开可审查，安全性与纯净度拉满。
 - **依托 FFmpeg 内核**：深度集成 FFmpeg 编解码库，原生支持几乎所有音视频格式、直播流、加密媒体文件，格式兼容性行业顶尖。
 - **高度可扩展生态**：原生支持 Lua 脚本、配置文件自定义、IPC 接口通信，开发者可自由开发插件、拓展功能，可塑性极强。
 - **社区持续维护**：全球开发者社区长期迭代更新，持续适配新系统、新编码格式、新硬件解码方案，稳定性与时效性极强。
 
-### 1.3 原生 mpv 核心优点
+## 1.3 原生 mpv 核心优点
 
 - **极致轻量低耗**：无冗余UI、无后台驻留、无垃圾进程，启动速度毫秒级，内存与CPU占用远低于主流商用播放器，老旧设备也能流畅播放4K、高帧率视频。
 - **顶级播放画质**：原生支持高精度色彩渲染、帧同步、硬件加速解码（GPU硬解），杜绝画面撕裂、拖影、色偏，画面还原度远超普通播放器。
@@ -34,13 +34,13 @@ mpv 是一款免费、开源、跨平台的多媒体播放器，是经典开源�
 - **纯净无干扰**：无弹窗广告、无会员付费、无推送，专注纯粹的影音播放体验，是极简主义用户的首选播放器。
 - **专业级可控性**：支持命令行调用、精细播放参数调节、直播源解析、批量播放等进阶功能，兼顾普通用户日常使用与发烧友、开发者的专业需求。
 
-## 🌟 mpv-Ciallo 个人定制版介绍
+# 🌟 mpv-Ciallo 个人定制版介绍
 
 ::github{repo="Ciallo-721/mpv-Ciallo"}
 
 mpv-Ciallo 是基于原生 mpv 内核深度定制的增强版播放器，在保留 mpv 原生轻量、稳定、高画质、开源纯净所有优势的基础上，整合多款社区优质开源插件与增强算法，针对性优化界面交互、预览体验、视频画质、网络播放、弹幕适配能力，解决原生 mpv 界面简陋、无缩略图、无超分、不支持流媒体与弹幕的短板，打造高颜值、全能型、开箱即用的现代化影音播放器。
 
-### 2.1 界面引擎：uosc（tomasklaen/uosc）
+## 2.1 界面引擎：uosc（tomasklaen/uosc）
 
 ::github{repo="tomasklaen/uosc"}
 
@@ -48,7 +48,7 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 ![uosc](images/mpv-ciallo.avif)
 
-### 2.2 视频缩略图：thumbfast（po5/thumbfast）
+## 2.2 视频缩略图：thumbfast（po5/thumbfast）
 
 ::github{repo="po5/thumbfast"}
 
@@ -58,7 +58,7 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 ![thumbfast](images/mpv-thumbfast.avif)
 
-### 2.3 AI 超分画质：Anime4K（bloc97/Anime4K）
+## 2.3 AI 超分画质：Anime4K（bloc97/Anime4K）
 
 ::github{repo="bloc97/Anime4K"}
 
@@ -68,7 +68,7 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 ![Anime4K](images/mpv-Anime4K.avif)
 
-### 2.4 网络视频捕获：yt-dlp（yt-dlp/yt-dlp）
+## 2.4 网络视频捕获：yt-dlp（yt-dlp/yt-dlp）
 
 ::github{repo="yt-dlp/yt-dlp"}
 
@@ -76,7 +76,7 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 **核心优势**：支持B站、YouTube、各大短视频、直播平台视频源直接播放，无需下载客户端，支持高清、4K、高帧率流媒体解析，兼容各类加密直播源与短视频链接，解析速度快、成功率高，同时为B站弹幕自动捕获提供核心底层支撑。
 
-### 2.5 本地弹幕插件：uosc_danmaku（Tony15246/uosc_danmaku）
+## 2.5 本地弹幕插件：uosc_danmaku（Tony15246/uosc_danmaku）
 
 ::github{repo="Tony15246/uosc_danmaku"}
 
@@ -86,7 +86,7 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 ![本地弹幕](images/mpv-uosc_danmaku.avif)
 
-### 2.6 B站专属弹幕：bili_danmaku
+## 2.6 B站专属弹幕：bili_danmaku
 
 基于 yt-dlp 解析能力，实现B站视频播放时的全自动弹幕捕获与渲染。
 
@@ -94,6 +94,6 @@ mpv-Ciallo 采用社区开源的界面插件 uosc 作为核心UI框架，替代�
 
 ![Bilibili弹幕](images/mpv-bili_danmaku.avif)
 
-## 🌟 下载方式
+# 🌟 下载方式
 
 ::github{repo="Ciallo-721/mpv-Ciallo/releases"}
