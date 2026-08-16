@@ -130,9 +130,9 @@ export const siteConfig: SiteConfig = {
 		defaultMode: "list",
 		// 移动端默认布局模式，不设置则跟随 defaultMode
 		mobileDefaultMode: "grid",
-		// 列表模式下封面图显示在哪一侧："right" 右侧，"left" 左侧
+		// 列表模式下封面图显示在哪一侧："right" 右侧，"left" 左侧，"top" 上方
 		// 网格模式的封面固定在卡片顶部，不受此项影响
-		coverPosition: "right",
+		coverPosition: "top",
 		// 文章简介显示行数，设为 0 则不截断
 		descriptionLines: 2,
 		// 文章卡片底部统计和发布日期是否显示图标
