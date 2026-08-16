@@ -26,7 +26,8 @@ const initialLayoutClass =
 
 // 列表模式封面位置，只有 left 需要额外样式，right 是默认布局
 const coverPositionClass =
-	siteConfig.postListLayout.coverPosition === "left" ? " cover-left" : "";
+	siteConfig.postListLayout.coverPosition === "left" ? " cover-left" :
+	siteConfig.postListLayout.coverPosition === "top" ? " cover-top" : "";
 ---
 
 <div
