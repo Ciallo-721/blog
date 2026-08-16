@@ -51,6 +51,7 @@ const hasCover =
 	processedImage !== "";
 
 const coverWidth = "30%";
+const isCoverTop = style.includes("cover-top");
 
 const descriptionLines = Math.max(
 	0,
@@ -93,6 +94,7 @@ const minutes = remarkPluginFrontmatter.minutes;
     "post-card-wrapper",
     hasCover ? "has-cover" : "no-cover",
     pinned ? "pinned" : "",
+	isCoverTop ? "cover-top" : "",
     "card-base flex flex-col-reverse w-full rounded-(--radius-large) overflow-hidden relative",
     className,
   ]}
@@ -431,4 +433,54 @@ const minutes = remarkPluginFrontmatter.minutes;
   :global(.grid-mode) .post-card-enter-btn {
     display: flex !important;
   }
+
+/* 列表模式封面在上方 - 移动端 */
+:global(.list-mode.cover-top) .post-card-wrapper {
+    flex-direction: column-reverse !important;
+}
+
+:global(.list-mode.cover-top) .has-cover .post-card-image {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    right: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: 200px !important;
+    margin: 0 !important;
+    border-radius: var(--radius-large) var(--radius-large) 0 0 !important;
+}
+
+:global(.list-mode.cover-top) .has-cover .post-card-content {
+    width: 100% !important;
+}
+
+/* 列表模式封面在上方 - 桌面端 */
+@media (min-width: 768px) {
+    :global(.list-mode.cover-top) .post-card-wrapper {
+        flex-direction: column-reverse !important;
+    }
+
+    :global(.list-mode.cover-top) .has-cover .post-card-image {
+        position: relative !important;
+        top: auto !important;
+        bottom: auto !important;
+        right: auto !important;
+        left: auto !important;
+        width: 100% !important;
+        height: 300px !important;
+        margin: 0 !important;
+        border-radius: var(--radius-large) var(--radius-large) 0 0 !important;
+    }
+
+    :global(.list-mode.cover-top) .has-cover .post-card-content {
+        width: 100% !important;
+        padding: 1.75rem 2.25rem !important;
+    }
+
+    :global(.list-mode.cover-top) .has-cover .post-card-title::before {
+        display: none !important;
+    }
+}
+
 </style>
