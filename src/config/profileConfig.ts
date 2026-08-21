@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "宇宙无敌板鸭酱",
+	name: "神の哈基米",
 
 	// 个人签名
 	bio: "Ciallo～(∠・ω< )⌒★",
